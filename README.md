@@ -1,6 +1,6 @@
 # kubernetes
 # 手动部署
-- [系统初始化](docs/init.md)
+- [k8s集群规划](docs/init.md)
 - [CA证书制作](docs/ca.md)
 - [ETCD集群部署](docs/etcd-install.md)
 - [Master节点部署](docs/master.md)
