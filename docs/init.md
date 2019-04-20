@@ -1,5 +1,4 @@
----
- k8smaster节点高可用搭建（一）
+k8smaster节点高可用搭建（一）
 ---
 # 简介 
 Kubernetes作为容器编排管理系统，通过Scheduler、Replication Controller等组件实现了应用层的高可用，通过service实现了pod的故障透明和负载均衡。但是针对Kubernetes集群，还需要实现各个
