@@ -147,6 +147,7 @@ EOF
 - * "CN"：Common Name，kube-apiserver 从证书中提取该字段作为请求的用户名 (User Name)；浏览器使用该字段验证网站是否合法；
 - * "O"：Organization，kube-apiserver 从证书中提取该字段作为请求用户所属的组 (Group)；
 
+
 **生成 CA 证书和私钥**
 
 ```
@@ -272,6 +273,7 @@ specifically, section 10.2.3 ("Information Requirements").
 admin.csr  admin-csr.json  admin-key.pem  admin.pem
 
 ```
+注意：这个admin 证书，是将来生成管理员用的kube config 配置文件用的，现在我们一般建议使用RBAC 来对kubernetes 进行角色权限控制， kubernetes 将证书中的CN 字段 作为User， O 字段作为 Group（具体参考 Kubernetes中的用户与身份认证授权中 X509 Client Certs 一段）。
 
 #### 5. 创建 kube-proxy 证书
 
