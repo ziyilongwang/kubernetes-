@@ -1,8 +1,4 @@
----
-title: k8s安装之kubeconfig配置(四)
-date: 2018-01-02 11:39:43
-categories: k8
-tags: kubernetes，k8s，高可用方案
+k8s安装之kubeconfig配置(三)
 ---
 # 简介
 
