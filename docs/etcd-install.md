@@ -1,8 +1,5 @@
 ---
-title: k8s安装之etcd集群搭建(三)
-date: 2018-01-02 11:36:05
-categories: k8
-tags: kubernetes，k8s，高可用方案
+k8s安装之etcd集群搭建
 ---
 # 下发证书修改权限
 
