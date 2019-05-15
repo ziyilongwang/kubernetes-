@@ -3,7 +3,7 @@
 - [k8s集群规划](docs/init.md)
 - [CA证书制作](docs/ca.md)
 - [kubeconfig配置](docs/kubeconfig.md)
-- [ETCD集群部署(暂无）](docs/etcd-install.md)
+- [ETCD集群部署](docs/etcd-install.md)
 - [Master节点部署（暂无）](docs/master.md)
 - [Node节点部署](docs/node.md)
 - [CoreDNS和Dashboard部署](docs/dashboard.md)
