@@ -1,8 +1,4 @@
----
-title: k8s安装之kubeconfig配置(四)
-date: 2018-01-02 11:39:43
-categories: k8
-tags: kubernetes，k8s，高可用方案
+k8s安装之kubeconfig配置(三)
 ---
 # 简介
 
@@ -25,7 +21,7 @@ tags: kubernetes，k8s，高可用方案
 kubeconfig文件记录k8s集群的各种信息，对集群构建非常重要。
 kubectl命令行工具从~/.kube/config，即kubectl的kubeconfig文件中获取访问kube-apiserver的地址，证书和用户名等信息
 kubelet/kube-proxy等在Node上的程序进程同样通过bootstrap.kubeconfig和kube-proxy.kubeconfig上提供的认证与授权信息与Master进行通讯
-Kubelet在首次启动时，会向kube-apiserver发送TLS Bootstrapping请求。如果kube-apiserver验证其与自己的token.csv一致，则为kubelete生成CA与key。
+Kubelet在首次启动时，会向kube-apiserver发送TLS Bootstrapping请求。如果kube-apiserver验证其与自己的token.csv一致，则为kubelet生成CA与key。
 # token文件
 先在`master`节点上安装 kubectl 然后再进行下面的操作。
 ```
