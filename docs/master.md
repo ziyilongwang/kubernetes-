@@ -1,8 +1,5 @@
 ---
-title: k8s master集群部署(五)
-date: 2018-01-02 11:43:53
-categories: k8
-tags: kubernetes，k8s，高可用方案
+master节点部署
 ---
 # 简介
 kubernetes master节点仅仅需要运行三个进程，这三个进程为kube-apiserver、kube-scheduler、kube-controller-manager。
